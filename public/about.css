@@ -1,0 +1,153 @@
+.image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+.Reservation{
+    background-color:rgba(3, 3, 3, 0.986);
+    color: white;
+    height: 260px;
+}
+
+.Bookings label{
+	display:block;
+    font-family: cursive;
+    
+}
+
+.Bookings .my-form{
+	padding-bottom:5px;
+    display:inline-table;
+    padding-left: 150px;
+}
+
+.Bookings button{
+    display:inline;
+    margin-top: 40px;
+    margin-left: 150px;
+    
+}
+
+.text-center{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.text{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.navbar-brand{
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+#navbarToggleExternalContent .nav-link{
+    color: green;
+    font-family:serif;
+}
+
+.color1{
+    color: gray;
+}
+
+.color2{
+    color: goldenrod;
+}
+
+.heading{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+
+.paragraph{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+
+.card-title{
+    font-style: italic;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: brown;
+}
+
+.card-text{
+    font-family: 'Times New Roman', Times, serif;
+    color: black;
+}
+#flex{
+    background-color: black;
+    color: white;
+    margin-top: 100px;
+}
+
+.link li{
+    list-style: none;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.chinedu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a{
+    width: 300px;
+    padding-top: 20px;
+}
+
+.b{
+    width: 300px;
+    padding-top:20px;
+    padding-left: 25px;
+    
+}
+
+
+.c{
+    min-width: 500px;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+
+.imagelogo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    float: ;
+}
+
+.fa-facebook {
+
+  }
+
+  .fa-instagram {
+	color: rgb(248, 95, 95);
+    padding-left: 5px;
+}
+
+.fa-twitter {
+    padding-left: 5px;
+}
+
+#main-footer{
+    background-color: brown;
+    height: 70px;
+    color: white;
+    justify-content: center;
+}
+
+html{
+    scroll-behavior: smooth;
+}

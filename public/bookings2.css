@@ -1,0 +1,130 @@
+.Bookings label{
+	display:block;
+    
+}
+
+.Bookings .my-form{
+	padding-bottom:5px;
+}
+
+.my-form label{
+    font-weight: bold;
+}
+
+.image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+}
+
+.navbar-brand{
+    font-style: italic;
+    font-family:cursive;
+    font-weight: bold;
+}
+
+#navbarToggleExternalContent .nav-link{
+    color: green;
+    font-family:serif;
+}
+
+.color1{
+    color:white;
+}
+
+.color2{
+    color: white;
+}
+
+.text{
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: px;
+	
+}
+
+.head{
+	background-color: brown;
+	padding-top: 10px;
+}
+
+#flex{
+    background-color: black;
+    color: white;
+    margin-top:100px;
+}
+
+.link li{
+    list-style: none;
+}
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.chinedu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.a{
+    width: 300px;
+    padding-top: 20px;
+}
+
+.b{
+    width: 300px;
+    padding-top:20px;
+    padding-left: 25px;
+    
+}
+
+
+.c{
+    min-width: 500px;
+    padding-top: 20px;
+    padding-left: 25px;
+    
+}
+
+.imagelogo {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    float: ;
+}
+
+.fa-facebook {
+
+  }
+
+  .fa-instagram {
+	color: rgb(248, 95, 95);
+    padding-left: 5px;
+}
+
+.fa-twitter {
+    padding-left: 5px;
+}
+
+#main-footer{
+    background-color: brown;
+    height: 70px;
+    color: white;
+    justify-content: center;
+}
+
+#hotel{
+	background-color:rgb(38, 17, 44);
+	color: white;
+	height: 600px;
+	padding-top: 50px;
+}
+.text-center{
+	font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 20px;
+}

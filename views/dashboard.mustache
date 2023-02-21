@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    </head>
+
+    <body>
+        
+        <div class="container">
+
+            <div class="row">
+               <div class="col-md-12">
+                    <h1>Dashboard</h1>
+               </div> 
+            </div>
+
+
+            <div class="row">
+               <div class="col-md-12">
+                    <table class="table table-striped">
+                        <thead class="table-dark">
+                            <tr>
+                                <th scope="col">BID</th>
+                                <th scope="col">Name</th>
+                                <th scope="col">Number</th>
+                                <th scope="col">Arrival</th>
+                                <th scope="col">Departure</th>
+                                <th scope="col">Room</th>
+                                <th scope="col">Adult</th>
+                                <th scope="col">Children</th>
+                                <th scope="col">Delete</th>
+                                <th scope="col">Edit</th>
+                            </tr>
+                        </thead>
+
+                         {{#rows}}
+                            <tr>
+                                <td>{{bid}}</td>
+                                <td>{{name}}</td>
+                                <td>{{number}}</td>
+                                <td>{{arrival}}</td>
+                                <td>{{departure}}</td>
+                                <td>{{room}}</td>
+                                <td>{{adult}}</td>
+                                <td>{{children}}</td>
+                                <td>
+                                <form action="/dashboard/delete/{{bid}}" method="post">
+                                <button class="btn btn-danger" type="submit">Delete</button>
+                                </form> 
+                                </td>
+
+                                <td>
+                                    <a class="btn btn-success" href="/dashboard/edit/{{mid}}">Edit</a>
+                                </td>
+                            </tr>
+
+                        {{/rows}}
+                    </table>
+
+               </div> 
+            </div>
+
+        </div>
+
+    </body>
+</html> 
